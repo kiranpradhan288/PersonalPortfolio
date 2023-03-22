@@ -1,0 +1,144 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ :root {
+     --font-family: 'Lato', sans-serif;
+     --background-color: #d9e4fab0;
+     --padding-inline-section: 20px;
+ }
+
+ body {
+     font-family: var(--font-family);
+     /* background-color: var(--background-color); */
+     background-color: var(--background-color);
+ }
+
+ a {
+     text-decoration: none;
+     display: inline-block;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ .hover-link {
+     color: black;
+     font-weight: 600;
+ }
+
+ .hover-link:hover {
+     color: red;
+ }
+
+
+
+
+
+ /* Utility Classes */
+ .container {
+     max-width: 1100px;
+     margin-inline: auto;
+     overflow: hidden;
+ }
+
+
+ .flex {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .hover-link {
+     transition: 0.2s ease-out;
+ }
+
+
+
+ /* nav section start here */
+ .main-nav {
+     margin-top: 20px;
+     justify-content: space-between;
+     /* position: relative; */
+ }
+
+ .nav-links {
+     flex-basis: 900px;
+ }
+
+ .nav-links ul {
+     justify-content: end;
+     gap: 40px;
+ }
+
+
+ /* Header section start */
+ header {
+     padding: 20px var(--padding-inline-section) 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     margin-top: 50px;
+    /* background-color: var(--background-color); */
+    /* background-color: #d1dfe134 !important; */
+    background-color: rgba(240, 255, 255, 0.021);
+ }
+
+ .header-section {
+     /* justify-content: center; */
+     gap: 100px;
+ }
+
+ .header-left {
+     width: 50%;
+ }
+
+ .header-left h1 {
+     font-size: 3.5rem;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ .header-left span {
+     color: orange;
+ }
+
+ .header-left {
+     width: 50%;
+ }
+
+ .header-left p {
+     font-size: 1.2rem;
+ }
+
+ .download-btn {
+     margin-top: 20px;
+     background-color: black;
+     color: white;
+     border-radius: 6px;
+     font-weight: 600;
+     padding: 12px 24px;
+ }
+ .download-btn:hover{
+    color: gold;
+    transition: 0.2s ease-in-out;
+ }
+
+ .header-right img {
+     width: 70%;
+     border: 2px solid rgb(243, 241, 121);
+     border-radius: 300px;
+     /* box-shadow:2px 2px  2px 2px rgb(194, 194, 194); */
+ }
+
+ /* Footer section start here */
+ .footer-1 {
+     height: 8vh;
+     margin-top: 20%;
+     color: black;
+     background-color: #1b4d5c3d;
+     justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+ }
